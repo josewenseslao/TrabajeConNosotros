@@ -1,0 +1,102 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, font, img,
+ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, center, u, b, i{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+
+body{
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #EEEEEE;
+	font-family:"Times New Roman", Times, serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+h1{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:30px;
+  	font-weight:bold;
+	-webkit-text-stroke: 0.75px #FFFFFF; 
+	margin-top:5px;
+	margin-bottom:5px;
+}
+h2{
+	font-size:18px;
+}
+h5{
+	color:#0C6;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 14px;
+}
+h6{
+	color:#F00;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 14px;
+}
+#correo{
+	width:500px;
+	height:auto;
+	margin: 0px auto;
+	margin-top:100px;
+	padding-bottom: 10px;
+	background-color:#FFFFFF;
+	border-radius:5px 15px 5px 15px;
+	box-shadow: 0px 0px 10px #000000;
+}
+caption{
+	width:100%;
+	background-color:#0BC9EB;
+	border-radius: 3px 12px 0px 20px;
+}
+
+input{
+	border-radius: 3px;
+}
+input:focus{
+	border-radius: 5px;
+	background-color: #EEEEEE;
+}
+textarea{
+	border-radius: 3px;
+}
+textarea:focus{
+	border-radius: 5px;
+	background-color: #EEEEEE;
+}
+fieldset{
+	width:90%;
+	margin: 10px auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: solid 2px #777777;
+}
+.alig{
+	text-align:end;
+	margin-right:20px;
+}
+.mensaje{
+	width:90%;
+	margin: 10px auto;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 14px;
+}
+button:hover{
+	cursor: pointer;
+	box-shadow: 0px 0px 5px #999999;
+}

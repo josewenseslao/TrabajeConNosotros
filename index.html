@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Contactenos</title>
+	<link rel="stylesheet" href="css/css.css">
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/jquery-ui-1.10.3.custom.js"></script>
+	<script src="js/correo.js"></script>
+</head>
+<body>
+	<div id="correo">
+		<table width="100%" align="center" cellspacing="5" summary="Contactano y envia tú hoja de vida por medio del presente asistente">
+		  <caption>
+		    <h1>Trabaje con Nosotros</h1>
+		  </caption>
+		  <tr>
+		    <td align="right" valign="top"><h2>Nombres:</h2></td>
+		    <td align="left"><input type="text" name="correo_nombres" id="correo_nombres" style="width: 90%;"></td>
+		  </tr>
+		  <tr>
+		    <td align="right" valign="top"><h2>Apellidos:</h2></td>
+		    <td align="left"><input type="text" name="correo_apellidos" id="correo_apellidos" style="width: 90%;"></td>
+		  </tr>
+		  <tr>
+		    <td align="right" valign="top"><h2><strong>Dirección de E-mail:</strong></h2></td>
+		    <td align="left"><input type="text" name="correo_correo" id="correo_correo" style="width: 90%;"></td>
+		  </tr>
+		  <tr>
+		    <td align="right" valign="top"><h2><strong>Número de Teléfono:</strong></h2></td>
+		    <td align="left"><input type="text" name="correo_telefono" id="correo_telefono" style="width: 90%;"></td>
+		  </tr>
+		  <tr>
+		    <td align="right" valign="top"><h2>Mensaje:</h2></td>
+		    <td align="left"><textarea name="correo_comentario" id="correo_comentario" rows="6" style="width: 90%;"></textarea></td>
+		  </tr>
+		  <tr>
+		    <td align="right" valign="top"><h2>Cargar Hoja de Vida:</h2></td>
+		    <td align="left"><input type="file" name="correo_hoja" id="correo_hoja"/></td>
+		  </tr>
+		</table>
+		<fieldset>
+			<div class="alig"><button id="btn_Correo">Enviar Mensaje</button></div>
+		</fieldset>
+	    <div class="mensaje"></div>
+	</div>
+</body>
+</html>
